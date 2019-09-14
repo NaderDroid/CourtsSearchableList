@@ -1,0 +1,21 @@
+@model Courts_Searchable_Dropdown.Models.Courts
+@{
+    ViewBag.Title = "Court info ";
+}
+
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p>Here is the courts details</p>
+                <dl>
+                    <dt>Court ID</dt>
+                    <dd>@Model.Id</dd>
+
+                    <dt>Court Name</dt>
+                    <dd>@Model.Name</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
