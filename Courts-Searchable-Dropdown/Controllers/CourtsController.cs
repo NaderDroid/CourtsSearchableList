@@ -59,7 +59,8 @@ namespace Courts_Searchable_Dropdown.Controllers
                 "Makkah Almukkaramah",
                 "Taif",
                 "Abha",
-                "Najran"
+                "Najran",
+                "المحكمة العامة بجدة"
             };
         }
         
